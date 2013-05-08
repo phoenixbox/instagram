@@ -8,6 +8,7 @@ gem 'rails', '3.2.3'
 gem 'sqlite3', :group => [:development, :test]
 gem 'pg'
 gem 'figaro'
+gem 'simple_form'
 
 
 group :development do 
@@ -49,6 +50,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'omniauth-twitter'
 gem 'omniauth-instagram'
-gem 'twitter'
+gem 'instagram'
